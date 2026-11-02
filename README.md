@@ -4,9 +4,7 @@ Python implementation of Upper Confidence Bound (UCB) algorithms for wireless ch
 
 ## Overview
 
-The project studies how UCB algorithms can learn to allocate wireless channels to users, balancing exploration of different channel assignments with exploitation of those offering higher rewards.
-
-Two approaches are considered:
+The project explores two approaches to allocating wireless channels to users when channel rewards are unknown:
 
 - **Case A – Standard UCB:** Each possible channel allocation is treated as a separate arm.
 - **Case B – Structured UCB:** The algorithm exploits the structure of the problem by learning the rewards of individual user-channel pairs.
